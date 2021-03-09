@@ -19,6 +19,13 @@ using namespace std;
 #define T ll int t;cin>>t;while(t--)
 
 
+/*It contains a function called solve2 which will given
+the number of integers from 1 to C, which is coprime
+to another number N. N's prime factorization and C
+will be the parameters of the function solve2.
+*/
+
+
 ll int solve2(ll int C , vector<ll int>&primes) {
 	ll int sz = primes.size();
 
